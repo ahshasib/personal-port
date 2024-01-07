@@ -1,0 +1,461 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 200px;
+    padding: 20px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(46, 43, 43);
+    font-size: 14px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: cornflowerblue;
+}
+/*section 1 start*/
+.sec1{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(236, 242, 247);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+}
+.text,.mainimg{
+    width: 50%;   
+}
+.text{
+    margin-left: 200px;
+    margin-bottom: 170px;
+}
+.mainimg{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.mainimg img{
+    max-width: 100%;
+    height: auto;
+}
+.text h4{
+    font-weight: normal;
+}
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    
+    color: rgb(106, 106, 106);
+}
+.text input {
+    padding: 12px 25px;
+    color: white;
+    outline: none;
+    background:linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    border: 1px solid #8490ff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.text input:hover {
+    box-shadow:5px 10px 30px rgba(75, 95, 231, 0.5);
+    transition: all ease-in 0.5s;
+    outline: none;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+.sec2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.sec2 img{
+    width: 90%;
+    margin: auto;
+}
+.sec2 .img2{
+    padding-left: 150px;
+}
+.text2 h4{
+    font-weight: normal;
+    color: black;
+}
+.text2 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text2 p{
+    color: rgb(93, 91, 91);
+    font-size: 15px;
+    width: 60%;
+}
+.text2 input{
+    padding: 12px 15px;
+    color: white;
+    background:linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    outline: none;
+    border: 1px solid #8490ff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.text2 input:hover{
+    box-shadow:5px 10px 30px rgba(75, 95, 231, 0.5);
+    transition: all ease-in 0.5s;
+    outline: none;
+}
+
+/*section 2 end*/
+/*section 3 start*/
+.sec3{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.sec3 h1{
+    font-size: 35px;
+}
+.sec3 p{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(97, 97, 97);
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1,.ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 30px;
+}
+.ser1 div,.ser2 div{
+    width: 32%;
+    padding: 5px;
+    float: left;
+    margin: 0 auto;
+    
+}
+.ser1 h1,.ser2 h1{
+    font-size: 22px;
+    color: rgba(0,0,0,0.9);
+}
+.service i{
+    font-size: 36px;
+    color: rgba(0,0,0,0.7);
+}
+.service p{
+    color: rgba(0,0,0,0.6);
+}
+.ser1 div:hover{
+    background-color: #8490ff;
+    
+}
+.ser1 div:hover h1{
+    color: white;
+}
+.ser1 div:hover i{
+    color: white;
+}
+.ser1 div:hover p{
+    color: white;
+}
+.ser2 div:hover{
+    background-color: #8490ff;
+}
+.ser2 div:hover p{
+    color: white;
+}
+.ser2 div:hover i{
+    color: white;
+}
+.ser2 div:hover h1{
+    color: white;
+}
+/*section 3 end*/
+/*section 4 start*/
+.sec4{
+    width: 100%;
+    height: 300px;
+    background-color: #5462dc;
+}
+.sec4 div{
+    float: left;
+    width: 10%;
+    margin: 0 auto;
+    top: 100px;
+    left: 100px;
+    margin-left: 200px;
+    position: relative;
+}
+.sec4 h1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.sec4 p{
+    color: white;
+    text-align: center;
+}
+
+/*section 4 end*/
+/*section 5 start*/
+.sec5{
+    width: 100%;
+    height: 1300px;
+    box-sizing: border-box;
+}
+.sec5 .protext{
+    text-align: center;
+}
+.sec5 .protext h1{
+    font-size: 35px;
+    color: rgba(0,0,0,0.9);
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.sec5 p{
+    color: rgba(0,0,0,0.7);
+}
+.sec5 ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 700px;
+}
+.sec5 ul li{
+    padding: 20px;
+    margin-top: 90px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    font-size: 13px;
+}
+.sec5 ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+}
+.sec5 ul li a:hover{
+    color: #5462dc;
+    text-decoration: underline;
+}
+.sec5 .Project{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.sec5 .Project div{
+    margin-bottom: 40px;
+    width: 340px;
+    height: 339px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.sec5 .Project div h1{
+    text-align: center;
+    color: rgba(0,0,0,0.9);
+    font-size: 20px;
+}
+.sec5 .Project p{
+    text-align: center;
+    color: rgba(0,0,0,0.9);
+    line-height: 0;
+}
+.sec5 .Project figure{
+    background: linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.sec5 .Project figure img {
+    transition: opacity 0.3s ease;
+}
+.sec5 .Project figure:hover img{
+    opacity: .3;
+}
+/*section 5 end*/
+/*section 6 start*/
+.sec6{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(253, 252, 251);
+}
+.sec6 .eco{
+    text-align: center;
+    padding: 2% 0;
+}
+.sec6 .eco h1{
+    font-size: 35px;
+    line-height: 0;
+    padding-top: 15px;
+   color: rgba(0,0,0,0.9);
+}
+.sec6 .eco p{
+    color: rgba(0,0,0,0.7);
+    line-height: 25px;
+}
+.sec6 .ecotab{
+    width: 75%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.sec6 .ecotab1{
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    background-color: rgba(249,249,255);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.sec6 .ecotab1 h1{
+    font-size: 35px;
+    padding-top: 8px;
+    
+
+}
+.sec6 .ecotab1 h3{
+    font-size: 25px;
+    padding: 5px;
+}
+.sec6 .ecotab1 hr{
+    color: rgba(0,0,0,0.7);
+}
+
+
+.sec6 .ecotab1 input{
+    padding: 12px 15px;
+    font-size: 23px;
+    font-weight: bold;
+    background: linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    border: 1px solid #8490ff;
+    color: white;
+}
+.sec6 .ecotab .ecotab1:hover{
+    background: linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    color:#ffff;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130,147,255,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+
+.sec6 .ecotab1:hover input{
+    background: white;
+    color: black;
+}
+
+/*section 6 end*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 200px;
+    color: white;
+    position: absolute;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    justify-content: space-around;
+    margin-top: 4%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.foot .foot1 h1{
+    font-size: 20px;
+   
+
+}
+.foot .foot1 p{
+    width: 400px;
+    color: rgba(255,255,255,0.5)
+}
+.foot .foot1 input{
+    padding: 8px 150px 8px 8px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+.foot .foot1 button{
+    font-size: 13px;
+    padding: 8px 10px;
+    color: white;
+    background-color: #8490ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+footer .foot .foot1 i{
+    font-size: 20px;
+    padding: 5px;
+}
+footer .foot .foot1 i:hover{
+    color: #8490ff;
+}
+
+
+
+
+
